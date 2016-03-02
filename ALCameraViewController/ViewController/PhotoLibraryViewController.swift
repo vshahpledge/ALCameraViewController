@@ -45,6 +45,8 @@ internal class PhotoLibraryViewController: UIViewController {
 
         collectionView.backgroundColor = UIColor.clearColor()
         
+        self.title = "Select A Photo"
+        
         ImageFetcher()
             .onFailure(onFailure)
             .onSuccess(onSuccess)
