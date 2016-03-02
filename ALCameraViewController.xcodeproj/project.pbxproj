@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CCB665E1C8776E9003BB2C5 /* UIColor+WellPledge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB665D1C8776E9003BB2C5 /* UIColor+WellPledge.swift */; };
 		C40665441C73A47C00EB9751 /* SingleImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40665431C73A47C00EB9751 /* SingleImageSaver.swift */; };
 		C40665461C73A94100EB9751 /* CameraGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40665451C73A94100EB9751 /* CameraGlobals.swift */; };
 		C40665481C73B72D00EB9751 /* SingleImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40665471C73B72D00EB9751 /* SingleImageFetcher.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CCB665D1C8776E9003BB2C5 /* UIColor+WellPledge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+WellPledge.swift"; sourceTree = "<group>"; };
 		C40665431C73A47C00EB9751 /* SingleImageSaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleImageSaver.swift; sourceTree = "<group>"; };
 		C40665451C73A94100EB9751 /* CameraGlobals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraGlobals.swift; sourceTree = "<group>"; };
 		C40665471C73B72D00EB9751 /* SingleImageFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleImageFetcher.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				FAF058691B317894008E5592 /* CameraShot.swift */,
 				C41E42B41BEC6F680028B993 /* ImageExtensions.swift */,
 				C40665451C73A94100EB9751 /* CameraGlobals.swift */,
+				3CCB665D1C8776E9003BB2C5 /* UIColor+WellPledge.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				FA5FA3431B3AFA2B00497C62 /* PermissionsView.swift in Sources */,
 				FAB50BFC1B413E8C009905B9 /* ImageFetcher.swift in Sources */,
 				FA82313A1B3C296C00A837BE /* Utilities.swift in Sources */,
+				3CCB665E1C8776E9003BB2C5 /* UIColor+WellPledge.swift in Sources */,
 				FAB50C001B413E8C009905B9 /* PhotoLibraryViewController.swift in Sources */,
 				FAF0586A1B317894008E5592 /* CameraShot.swift in Sources */,
 				FAF058661B316695008E5592 /* ALCameraViewController.swift in Sources */,

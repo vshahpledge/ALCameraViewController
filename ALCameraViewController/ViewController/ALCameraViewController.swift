@@ -18,7 +18,8 @@ public extension ALCameraViewController {
         let imagePicker = PhotoLibraryViewController()
         let navigationController = UINavigationController(rootViewController: imagePicker)
         
-        navigationController.navigationBar.barTintColor = UIColor.blackColor()
+        navigationController.navigationBar.barTintColor = UIColor.wp_navigationBarLightBlueColor()
+        navigationController.navigationBar.tintColor = UIColor.whiteColor()
         
         imagePicker.onSelectionComplete = { asset in
             if asset != nil {
@@ -38,7 +39,6 @@ public extension ALCameraViewController {
         }
         
         imagePicker.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Stop, target: imagePicker, action: "dismiss")
-//            UIBarButtonItem(image: UIImage(named: "libraryCancel", inBundle: CameraGlobals.shared.bundle, compatibleWithTraitCollection: nil)?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal), style: UIBarButtonItemStyle.Plain, target: imagePicker, action: "dismiss")
         
         return navigationController
     }

@@ -31,7 +31,7 @@ internal class PermissionsView: UIView {
     
     func commonInit() {
         
-        backgroundColor = UIColor(white: 0.2, alpha: 1)
+        backgroundColor = UIColor.wp_darkBlueColor()
         
         titleLabel.textColor = UIColor.whiteColor()
         titleLabel.numberOfLines = 0
@@ -53,7 +53,7 @@ internal class PermissionsView: UIView {
         settingsButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
         settingsButton.layer.cornerRadius = 4
         settingsButton.titleLabel?.font = UIFont(name: "AppleSDGothicNeo-Regular", size: 14)
-        settingsButton.backgroundColor = UIColor(red: 52.0/255.0, green: 183.0/255.0, blue: 250.0/255.0, alpha: 1)
+        settingsButton.backgroundColor = UIColor.wp_lightBlueColor()
         settingsButton.addTarget(self, action: "openSettings", forControlEvents: UIControlEvents.TouchUpInside)
         
         addSubview(iconView)

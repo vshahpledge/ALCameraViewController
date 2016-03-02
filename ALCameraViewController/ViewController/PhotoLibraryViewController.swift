@@ -17,14 +17,6 @@ typealias PhotoLibraryViewSelectionComplete = (asset: PHAsset?) -> Void
 
 internal class PhotoLibraryViewController: UIViewController {
     
-    var backgroundColor: UIColor? {
-        set {
-            self.view.backgroundColor = newValue
-        }
-        get {
-            return self.view.backgroundColor
-        }
-    }
     internal var onSelectionComplete: PhotoLibraryViewSelectionComplete?
     
     private lazy var collectionView: UICollectionView = {
@@ -48,7 +40,7 @@ internal class PhotoLibraryViewController: UIViewController {
         super.viewDidLoad()
         
         setNeedsStatusBarAppearanceUpdate()
-        view.backgroundColor = UIColor(white: 0.2, alpha: 1)
+        view.backgroundColor = UIColor.wp_darkBlueColor()
         view.addSubview(collectionView)
 
         collectionView.backgroundColor = UIColor.clearColor()

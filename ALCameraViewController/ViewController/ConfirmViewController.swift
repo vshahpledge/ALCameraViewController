@@ -55,7 +55,7 @@ internal class ConfirmViewController: UIViewController, UIScrollViewDelegate {
     internal override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = UIColor.blackColor()
+        view.backgroundColor = UIColor.wp_darkBlueColor()
         
         scrollView.addSubview(imageView)
         scrollView.delegate = self
