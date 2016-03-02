@@ -17,6 +17,14 @@ typealias PhotoLibraryViewSelectionComplete = (asset: PHAsset?) -> Void
 
 internal class PhotoLibraryViewController: UIViewController {
     
+    var backgroundColor: UIColor? {
+        set {
+            self.view.backgroundColor = newValue
+        }
+        get {
+            return self.view.backgroundColor
+        }
+    }
     internal var onSelectionComplete: PhotoLibraryViewSelectionComplete?
     
     private lazy var collectionView: UICollectionView = {
